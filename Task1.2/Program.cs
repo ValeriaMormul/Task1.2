@@ -3,7 +3,7 @@
 {
 static void Main()
     {
- Console.Write("12,345"); //Надається довільне значення. Приклад:12,34       
+ Console.Write("Введіть значення: "); //Надається довільне значення. Приклад:12,34       
 double number = Convert.ToDouble(Console.ReadLine());
         int decimalPart = (int)((number - Math.Floor(number)) * 100);
     int digit1 = decimalPart / 10;
